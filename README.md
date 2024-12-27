@@ -9,6 +9,7 @@ MetaMask（数字钱包）
 #### 编译运行
 
 ganache新建链导入truffle-config.js
+
 根目录下运行：
 truffle compile
 truffle migrate
