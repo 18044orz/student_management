@@ -9,7 +9,7 @@ module.exports = {
       
     },
     develop: {
-      port: 5777
+      port: 1337
     }
   }
 };
