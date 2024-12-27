@@ -1,0 +1,130 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background:#f7f0f0;
+	background:url(../image/buptbk.png)
+}
+a:link {
+	color: #000000;
+}
+a:visited {
+	color: #000000;
+}
+a:hover {
+	color: #FF0000;
+}
+a:active {
+	color: #000000;
+}
+.label{
+font-family:����;color: #ffffff;font-size:15px;
+}
+.SearchTd{
+height:50px;
+background:white;
+text-align:center;
+padding:10px;
+}
+.TableAll {
+	color: #000000;
+	background:#00b7ee;
+}
+.TrTop {
+font-size:18px;
+height:25px;
+font-family:����;
+color:white;
+}
+.td{
+text-align:left;
+padding-left:10px;
+}
+.td_right{
+text-align:right;
+padding-right:10px;
+}
+.TrTitle {
+font-size:13px;
+font-weight:bold;
+text-align:center;
+vertical-align:middle;
+height:23px;
+font-family:����;
+background:#fedc8b;
+}
+.TrBody {
+	font-size:15px;
+	height:33px;
+	text-align:center;
+}
+
+.search_select{
+height:34px;
+font-size:20px;
+font-family:����;
+vertical-align: middle;
+border:solid 1px #00b7ee;
+padding:0px 7px;
+background:transparent;
+}
+
+.search_input{
+width:400px;
+height:40px;
+line-height:38px;
+font-size:18px;
+color:#848383;
+padding-left:10px;
+font-family:����;
+vertical-align: middle;
+border:solid 1px #00b7ee;
+border-radius:5px;
+}
+.search_input_m{
+width:95%;
+height:40px;
+line-height:38px;
+font-size:16px;
+vertical-align: middle;
+border:solid 1px #00b7ee;
+color: #101e22;
+border-radius:5px;
+text-align:center;
+}
+.btn_m{
+    width:95%;
+	height:44px;
+	color:white;
+    background:#00b7ee;
+	border:0px;
+	cursor:pointer;
+    font-size:16px;
+	vertical-align: middle;
+	border-radius:5px;
+}
+.btn{
+	height:44px;
+	width:400px;
+	color:white;
+    background: #000000;
+    padding-left:10px;
+    padding-right:10px; 
+	border:0px;
+	cursor:pointer;
+    font-size:12px;
+	vertical-align: middle;
+	border-radius:5px;
+}
+
+.btn:hover{
+    background:#01c1fb;
+}
+
+.divlogin_login  td{font-size:12px;	font-weight:bold;color:#2a4a61;line-height:120%;} 
+.divbot_login {
+	font-size: 10pt;
+	color: #79a9c8;
+	height:35px;
+}

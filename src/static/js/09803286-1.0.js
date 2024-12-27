@@ -1,0 +1,1 @@
+document.write('<a href="http://www.bcpcn.com/product/pji/da/BCP0980328621.html" target="_blank"><img src="http://www.bcpcn.com/bcptags/img/xyqy.png" border="0" /></a>');

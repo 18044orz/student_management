@@ -1,0 +1,198 @@
+body{ font-family:'Hiragino Sans GB W3'}
+.wrap{
+	max-width:1220px;
+	margin:0 auto;
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear; 
+	-o-transition:all .2s linear; 
+	-ms-transition:all .2s linear;
+	padding-top:11px;
+	padding-bottom:10px;
+	overflow:hidden;
+	padding-left:15px;
+	padding-right:15px;
+	box-sizing:border-box;
+}
+.header-top{
+	background:rgba(0,0,0,.3);
+	position:fixed;
+	width:100%;
+	z-index:999;
+	top:0;
+	height:73px;
+}
+.logo{
+	float:left;
+	margin-right:58px;
+	margin-top: 4px;
+}
+.logo ul li {
+	display: inline-block;
+	color:#255E63;
+}
+.logo ul h6 {
+	background: url(http://www.panpass.com/product/images/sep.png) no-repeat;
+	width: 23px;
+	height: 22px;
+	float: left;
+}
+.logo ul li.line{
+	vertical-align: top;
+	margin-top: 17px;
+	font-size: 0.85em;
+}
+span.green{
+	color:#0fcf8c;
+}
+.menu{
+	 float:left;
+}
+.menu li{
+	display:inline-block;
+	float:left;
+}
+.menu li:first-child{
+   	margin-left:0;
+ }
+.nav > li > a{ padding:0;}
+.menu li a{
+  	display: block;
+	font-size:18px;
+	padding:0 12px;
+	color: #EEE;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	line-height:50px;
+	text-decoration:none;
+	font-family:'Hiragino Sans GB W3';
+ }
+.toggleMenu {
+    display:  none;
+   	padding:4px 5px 0px 5px;
+    border-radius:2em; 
+    -webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    -o-border-radius:2em; 
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+}
+@media screen and (max-width:800px) {
+	.header-top{
+	background:rgba(0,0,0,1);
+	}
+	.menu {
+		margin:10px 0; float:right;
+	}
+    .active {
+        display: block;
+    }
+    .menu li a{
+    	border-radius:0;
+    	-webkit-border-radius:0;
+    	-moz-border-radius:0;
+    	-o-border-radius:0;
+    }
+    .nav {
+	     list-style: none;
+	     *zoom: 1;
+	     width:100%;
+		 position: absolute;
+		 right:0;
+		 left:0;
+		 background:#051619;
+		 top:62px;
+		 z-index: 9999;
+		 text-align:center;
+    }
+   .menu li a span.messages{
+    	text-align:center;
+    	top:15px;
+    }
+    .nav li ul{
+    	width:100%;   	
+    }
+    .menu ul{
+    	margin:0;
+    }
+    .nav > li.hover > ul {
+        width:100%;
+    }
+    .nav > li {
+        float: none;
+        display:block;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+    .nav li a{
+    	border-top:1px solid #1F253D;
+    }
+     .nav li:first-child a{
+     	border-top:none;
+     }
+ }
+ 
+ 
+
+ 
+.main { width: 100%;  max-width:1170px; padding: 0 10px; margin: 0 auto;  box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.footer { background: #333; font-size: 0; padding: 30px 0; overflow:hidden; 	font-family:'Hiragino Sans GB W3'; }
+.footer li { display: inline-block; vertical-align: top; letter-spacing: 0px; width:23%;  text-align:left; min-height: 200px; }
+.footer li a{ color:#fff; text-decoration:none;}
+
+.footer li:last-child { border-right: none; }
+.footer li.site { width: 30%; text-align: left; letter-spacing: -4px; font-size: 0; padding: 0 20px 0 50px; }
+.footer li.address { width:26%; text-align: left; padding-left: 50px; }
+.footer li h4 { font-size: 18px; font-weight: bold; color: #fff; line-height: 30px; font-family:'Hiragino Sans GB W3';}
+.footer li p { color: #d9d9d9;  font-size:18px; line-height:40px; }
+.footer li p a { color: #d9d9d9; font-size: 18px; font-family:'Hiragino Sans GB W3'; }
+.footer li.site h4 { font-size: 18px; letter-spacing: 0px; position: relative; }
+.footer li.site h4:before { content: ""; width: 18px; height: 18px; display: block; background: url(http://www.panpass.com/product/images/icon/index13.png) no-repeat; position: absolute; left: -25px; top: 5px; }
+.footer li.site p { width: 50%; display: inline-block; vertical-align: top; letter-spacing: 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.footer li.address .location { font-size: 18px; font-weight: 400; color: #fff; line-height: 28px; margin-bottom: 20px; position: relative; }
+.footer li.address .location:before { content: ""; width: 18px; height: 18px; display: block;  position: absolute; left: -25px; top: 5px; }
+.footer li.address p { font-size: 18px; color: #fff; font-family: Impact; position: relative; }
+.footer li.address .tel:before { content: ""; width: 18px; height: 18px; display: block;  position: absolute; left: -25px; top: 5px; }
+
+.foot_bottom { background: #1c1c1c; padding: 10px 0; text-align: center; font-size: 12px; color: #fff; line-height: 20px; }
+.address .ewm_index{ display:inline-block; width:100px;}
+.address .ewm_index img{ width:100%;}
+.address .ewm_index .ewm_index_pic{ width:100px; height:100px; display:inline-block;}
+.address .ewm_index span{ width:100px; height:26px; line-height:26px; text-align:center; display:block;}
+
+.address .ewm_index span a{ color:#fff;}
+
+
+
+
+@media screen and (max-width:768px) {
+    .footer li { width: 100% !important; border-right: none; min-height:32px; text-align:center; font-size:12px; }
+    .footer li.link h4 { border: 1px solid #4c4c4c; margin-top: 15px; font-weight: 400; cursor: pointer; font-size:14px; }
+    .footer li.link p { display: none; }
+    .footer li.site { padding: 0px; }
+    .footer li.site h4 { font-size: 16px; text-align: center; }
+    .footer li.site h4:before { content: ""; display: none; }
+    .footer li.site h4 em { display: none; }
+    .footer li.site p { width: 100%; text-align: center; }
+    .footer li.address { padding-left: 0px; text-align: center; font-size:14px;}
+    .footer li.address .location { margin-bottom: 10px; font-size:12px; }
+    .footer li.address .location:before { content: ""; width: 18px; height: 18px; display: block; position: Microsoft YaHei; left: 0; margin: 10px auto 10px; }
+    .footer li.address .tel:before { content: ""; width: 18px; height: 18px; display: block;  position: Microsoft YaHei; left: 0; margin: 10px auto 10px; }
+	.footer li.address .location { font-size: 14px;  }
+	.footer li.address p{ font-size: 14px;  }
+}

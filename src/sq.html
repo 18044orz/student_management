@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>区块链系统</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container" style="width: 650px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="text-center">系统管理授权</h1>
+          <h4 class="text-center">状态码：0-学生；1-老师；2-管理员</h4>
+         
+          
+          
+          
+           <form onSubmit="App.sqIt();">
+              <div class="form-group">
+                <br>
+                <label for="sqadd">区块链地址</label>
+                <input type="text"  style="width:600px; height:40px;" class="form-control" id="sqadd" placeholder="区块链地址">
+                <br>
+                <label for="sqsta">状态码</label>
+                <input type="text"  style="width:600px; height:40px;" class="form-control" id="sqsta" placeholder="状态码">
+                <br>
+              </div>
+              <button type="submit" class="btn btn-primary">授权</button>
+              <hr />
+            </form>
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/appcx.js"></script>
+  </body>
+</html>
