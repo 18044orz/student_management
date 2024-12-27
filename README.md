@@ -11,8 +11,11 @@ MetaMask（数字钱包）
 ganache新建链导入truffle-config.js
 
 根目录下运行：
+
 truffle compile
+
 truffle migrate
+
 npm run dev
 
 **默认访问地址 localhost:3000
